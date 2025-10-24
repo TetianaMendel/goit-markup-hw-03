@@ -49,10 +49,14 @@ a {
     color: #404bbf;
 }
 
+.section-hero {
+    background: #2e2f42;
+}
+
 .title-hero {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff
@@ -64,6 +68,7 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    cursor: pointer;
 }
 .btn-order:hover, .btn-order:focus {
     background-color: #404bbf;
@@ -89,7 +94,7 @@ a {
 .mean-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -133,7 +138,15 @@ a {
 .page-footer {
     background: #2e2f42;
 }
-
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
 
 .footer-logo .logo-part {
     color: #f4f4fd;
